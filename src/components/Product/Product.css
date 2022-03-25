@@ -1,0 +1,26 @@
+.product-card{
+    box-shadow: 0px 0px 5px lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.info{
+    padding-bottom: 20px;
+}
+.product-card p{
+    line-height: 0px;
+}
+.add-btn{
+    background-color: lightseagreen;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 10px;
+    width: 80%;
+    cursor: pointer;
+}
+.add-btn:hover{
+    background-color: lightslategray;
+}

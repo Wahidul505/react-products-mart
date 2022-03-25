@@ -1,0 +1,20 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.products-container{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+@media screen and (max-width: 670px) {
+    .products-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (min-width:671px) and (max-width:800px) {
+    .products-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}

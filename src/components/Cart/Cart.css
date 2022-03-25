@@ -1,0 +1,10 @@
+.clr-btn{
+    width: 90%;
+    margin: 10 auto;
+    background-color: lightseagreen;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
